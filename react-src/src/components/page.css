@@ -1,0 +1,24 @@
+.Page {
+    align-items: flex-start;
+    background-color: var(--empty);
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* height: 486px; */
+    padding: 3px 10px 10px 10px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .Page a:hover {
+    color: var(--icon-active-hover);
+  }
+  .Page a:active {
+    color: var(--icon-active-pressed);
+  }
+
+  .Page a {
+    flex-shrink: 0;
+  }
+  

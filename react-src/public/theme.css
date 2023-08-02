@@ -1,0 +1,11 @@
+:root {
+  --background: rgba(225, 225, 225, 1);
+  --bg-highlight1: rgba(231, 125, 233, 1);
+  --bg-highlight2: rgb(234, 169, 235);
+  --icon-active: rgba(84, 84, 84, 1);
+  --icon-active-hover: rgba(110, 110, 110, 1);
+  --icon-active-pressed: rgba(50, 50, 50, 1);
+  --icon-deactivated: rgba(195, 195, 195, 1);
+  --text: rgba(0, 0, 0, 1);
+  --empty: rgba(0,0,0,0)
+}

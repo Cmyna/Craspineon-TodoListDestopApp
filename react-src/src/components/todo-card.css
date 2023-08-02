@@ -1,0 +1,103 @@
+.todo-card {
+    align-items: stretch;
+    /* background-color: var(--bg-highlight1); */
+    border-radius: 12px;
+    box-shadow: 2px 2px 4px #81818180;
+    display: flex;
+    gap: 30px;
+    min-height: 39px;
+    min-width: 347px;
+    padding: 10px 15px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex: 1 1 auto;
+  }
+  
+.not-finished {
+  background-color: var(--bg-highlight1);
+}
+
+.finished {
+  background-color: var(--bg-highlight2);
+}
+
+  .todo-card .todo-title {
+    border: none;
+    color: var(--text);
+    flex: 1 1 auto;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: pre-wrap;
+    height: auto;
+    min-height: 45px;
+    transition: height 0.2s ease-out;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .todo-card .tools {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .todo-card .progress-text {
+    color: rgba(100,100,100);
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    /* visibility: hidden; */
+  }
+
+  .todo-card a {
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--icon-active);
+  }
+  
+  .todo-card .delete-icon {
+    color: var(--icon-active);
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.5px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .todo-card .subdir-icon {
+    color: var(--icon-active);
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.5px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+
+  
+  
+  
+  

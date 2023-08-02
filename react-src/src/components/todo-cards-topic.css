@@ -1,0 +1,70 @@
+.todo-topic-card {
+    align-items: center;
+    background-color: var(--empty);
+    border: 1px none;
+    display: flex;
+    gap: 25px;
+    min-height: 60px;
+    min-width: 347px;
+    padding: 15px 10px;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .todo-topic-card .return-btn {
+    color: var(--icon-deactivated);
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .todo-topic-card .todo-title {
+    color: var(--text);
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.5px;
+    position: relative;
+    /* width: fit-content; */
+    min-width: 48px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .todo-topic-card .btn {
+    color: var(--icon-active);
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .todo-topic-card .top-level-menu {
+    background-color: rgba(0,0,0,0);
+    border: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    flex-grow: 1;
+    flex-shrink: 10;
+  }
+
+  .todo-topic-card .top-level-menu option {
+    background-color: var(--background);
+    max-width: 100%;
+  }
